@@ -22,8 +22,8 @@ const { title = "Simun", description } = Astro.props;
     <SEO title={title} description={description} />
   </head>
   <body>
-    <div class="grid grid-flow-col auto-rows-min grid-cols-[200px_1fr_200px]">
-      <div class="col-start-2 h-fit">
+    <div class="grid grid-flow-col auto-rows-min grid-cols-[250px_1fr_250px]">
+      <div class="col-start-2 h-fit border-x-2 border-neutral-100 px-8">
         <Topbar />
       </div>
       <div
@@ -31,7 +31,7 @@ const { title = "Simun", description } = Astro.props;
         class="col-span-full border-y border-neutral-200 bg-orange-100 py-32"
       >
       </div>
-      <main class="col-start-2">
+      <main class="col-start-2 border-x-2 border-neutral-100 px-8">
         <slot />
       </main>
     </div>
