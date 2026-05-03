@@ -1,4 +1,5 @@
 ---
+import { Font } from "astro:assets";
 import { SEO } from "astro-seo";
 import Topbar from "../components/Topbar.astro";
 import "../styles/global.css";
@@ -20,21 +21,23 @@ const { title = "Simun", description } = Astro.props;
     <link rel="icon" href="/favicon.ico" />
     <meta name="generator" content="❤️ love ❤️" />
     <SEO title={title} description={description} />
+    <Font cssVariable="--font-pp-mori" />
+    <Font cssVariable="--font-hyperlegible" />
   </head>
-  <body>
-    <div class="grid grid-flow-col auto-rows-min grid-cols-[250px_1fr_250px]">
-      <div class="col-start-2 h-fit border-x-2 border-neutral-100 px-8">
-        <Topbar />
-      </div>
-      <div
-        id="sunset-district"
-        class="col-span-full border-y border-neutral-200 bg-orange-100 py-32"
-      >
-      </div>
-      <main class="col-start-2 border-x-2 border-neutral-100 px-8">
-        <slot />
-      </main>
+  <body
+    class="grid min-h-screen grid-flow-col auto-rows-min grid-cols-[1fr_minmax(32rem,56rem)_1fr]"
+  >
+    <div class="col-start-2 h-fit border-x-2 border-neutral-100 px-8">
+      <Topbar />
     </div>
+    <div
+      id="sunset-district"
+      class="col-span-full border-y border-neutral-200 bg-orange-100 py-32"
+    >
+    </div>
+    <main class="col-start-2 border-x-2 border-neutral-100 px-8 pt-12">
+      <slot />
+    </main>
   </body>
 </html>
 
@@ -44,5 +47,12 @@ const { title = "Simun", description } = Astro.props;
     margin: 0;
     width: 100%;
     height: 100%;
+    font-family:
+      var(--font-sans),
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
   }
 </style>
