@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "me-dot-come",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -12,6 +12,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.2.1"
+    "@astrojs/sitemap": "^3.7.2",
+    "@tailwindcss/vite": "^4.2.4",
+    "astro": "^6.2.1",
+    "astro-icon": "^1.1.5",
+    "astro-seo": "^1.1.0",
+    "tailwindcss": "^4.2.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.8.0"
   }
 }
