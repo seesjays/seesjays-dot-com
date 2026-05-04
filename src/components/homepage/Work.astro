@@ -1,0 +1,11 @@
+---
+import ExperienceCard from "./ExperienceCard.astro";
+import type { Job } from "./ExperienceCard.astro";
+
+import experiences from "./experiences.json";
+const jobs: Job[] = experiences.jobs;
+---
+
+<div class="not-prose">
+  {jobs.map((job) => <ExperienceCard job={job} />)}
+</div>

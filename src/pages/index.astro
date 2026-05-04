@@ -1,9 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
+
+import Picrow from "../components/homepage/Picrow.astro";
+import Work from "../components/homepage/Work.astro";
+import Projex from "../components/homepage/Projex.astro";
 ---
 
 <Layout title="Home">
-  <div class="prose-lg">
+  <div
+    class="prose-lg prose-a:underline prose-a:text-[#774522] prose-a:underline-offset-4 prose-a:decoration-1"
+  >
     <div id="greet">
       <h1 class="mb-4 font-sans text-4xl font-black">
         Hi! My name's <span class="text-[#8B5339]">Christian.</span>
@@ -16,6 +22,46 @@ import Layout from "../layouts/Layout.astro";
         I’m currently doing some distributed systems work at yo mama house in
         the SF Bay Area.
       </p>
+
+      <div id="pics" class="mt-12">
+        <Picrow />
+      </div>
+
+      <div id="work-exp" class="mt-16">
+        <h2 class="mb-4 font-bold">Work Experience</h2>
+        <Work />
+      </div>
+
+      <div id="projects" class="mt-16">
+        <h2 class="mb-4 font-bold">Projects</h2>
+        <Projex />
+      </div>
+
+      <div id="contact" class="mt-16">
+        <h2 class="mb-4 font-bold">Contact</h2>
+        <p>Reach out anytime, I'm always happy to chat!</p>
+        <ul class="list-inside list-disc pl-0">
+          <li>
+            LinkedIn: <a href="https://linkedin.com/in/seesjays"
+              >linkedin.com/in/seesjays</a
+            >
+          </li>
+          <li>
+            GitHub: <a href="https://github.com/seesjays">github.com/seesjays</a
+            >
+          </li>
+          <li>
+            Twitter: <a href="https://twitter.com/seesjays"
+              >twitter.com/seesjays</a
+            >
+          </li>
+          <li>
+            Instagram: <a href="https://instagram.com/seesjays"
+              >instagram.com/seesjays</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </Layout>

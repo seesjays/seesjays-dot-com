@@ -1,0 +1,70 @@
+---
+export type Project = {
+  title: string;
+  timespan: string;
+  description: string;
+  hue: number;
+  link: string | undefined;
+  CTA: string;
+};
+
+export interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+const hue = project.hue;
+---
+
+<div
+  class="projects project-card flex flex-col justify-start bg-white px-3 py-5 max-sm:flex-col max-sm:py-3 dark:border-neutral-700 dark:bg-neutral-800"
+  style={`--thu: ${hue};`}
+>
+  <h3 class="text-2xl font-semibold tracking-wider text-(--toned)">
+    {project.title}
+  </h3>
+  <span class="text-md mt-1 mb-3 font-normal">{project.description}</span>
+  <a
+    href={project.link}
+    class="duration-00 border-opacity-40 mt-auto w-full border border-(--toned)/40 bg-(--toned)/7 pt-1 text-center font-medium text-(--toned-button-text) no-underline transition-colors hover:bg-(--toned)/15 dark:bg-(--tonad-400) dark:text-(--tonal-500) dark:hover:bg-(--tonia-300)"
+  >
+    {project.CTA}
+  </a>
+</div>
+
+<style>
+  .projects {
+    --toned: hsl(var(--thu), 55%, 50%);
+    --toned-button-text: hsl(var(--thu), 55%, 30%);
+
+    --tonia-100: hsl(var(--thu), 55%, 10%);
+    --tonia-100: hsl(var(--thu), 55%, 10%);
+    --tonia-200: hsl(var(--thu), 55%, 20%);
+    --tonia-300: hsl(var(--thu), 55%, 30%);
+    --tonia-400: hsl(var(--thu), 55%, 40%);
+    --tonia-600: hsl(var(--thu), 55%, 60%);
+    --tonia-700: hsl(var(--thu), 55%, 70%);
+    --tonia-800: hsl(var(--thu), 55%, 80%);
+    --tonia-900: hsl(var(--thu), 55%, 90%);
+
+    --tonad-100: hsl(var(--thu), 40%, 53%);
+    --tonad-200: hsl(var(--thu), 32%, 42%);
+    --tonad-300: hsl(var(--thu), 31%, 32%);
+    --tonad-400: hsl(var(--thu), 30%, 23%);
+    --tonad-500: hsl(var(--thu), 26%, 16%);
+    --tonad-600: hsl(var(--thu), 26%, 11%);
+    --tonad-700: hsl(var(--thu), 10%, 8%);
+    --tonad-800: hsl(var(--thu), 10%, 6%);
+    --tonad-900: hsl(var(--thu), 20%, 4%);
+
+    --tonal-100: hsl(var(--thu), 100%, 70%);
+    --tonal-200: hsl(var(--thu), 100%, 75%);
+    --tonal-300: hsl(var(--thu), 100%, 80%);
+    --tonal-400: hsl(var(--thu), 100%, 85%);
+    --tonal-500: hsl(var(--thu), 100%, 89%);
+    --tonal-600: hsl(var(--thu), 100%, 93%);
+    --tonal-700: hsl(var(--thu), 100%, 95%);
+    --tonal-800: hsl(var(--thu), 100%, 96%);
+    --tonal-900: hsl(var(--thu), 100%, 99%);
+  }
+</style>

@@ -1,0 +1,89 @@
+{
+  "jobs": [
+    {
+      "title": "NVIDIA | Software Engineer",
+      "timespan": "Incoming Summer 2026",
+      "primary": "hsl(82, 100%, 33%)",
+      "secondary": "hsl(82, 100%, 40%)",
+      "description": "Nvidia GPU Cloud Storage Infrastructure team."
+    },
+    {
+      "title": "NVIDIA | SWE Intern",
+      "timespan": "Fall 2025",
+      "primary": "hsl(82, 100%, 33%)",
+      "secondary": "hsl(82, 100%, 40%)",
+      "description": "I did some exploratory work to reduce the amount of time sharding large containers on our object storage clusters took, improved sharding observability through Grafana dashboard updates, enhanced Prometheus instrumentation, and demonstrated some really neat agentic workflows."
+    },
+    {
+      "title": "Reddit | SWE Intern",
+      "timespan": "Summer 2025",
+      "primary": "hsl(16, 100%, 50%)",
+      "secondary": "hsl(16, 100%, 50%)",
+      "description": "I added a experimental new metric to the moderator dashboard, prototyped Markdown support in the Moderator Recruitment form, and automated aggregation for billions of new events via Airflow."
+    },
+    {
+      "title": "Google | STEP Intern",
+      "timespan": "Summer 2024",
+      "primary": "hsl(218, 89%, 58%)",
+      "secondary": "hsl(218, 89%, 65%)",
+      "description": "I designed, developed, and tested the new MD3 GIF picker for the Google Chat Web frontend with a co-intern and resolved some preexisting visual accessibility bugs in the message input bar."
+    },
+    {
+      "title": "Amazon Web Services | SDE Intern",
+      "timespan": "Summer 2023",
+      "primary": "hsl(27, 87%, 47%)",
+      "secondary": "hsl(27, 87%, 50%)",
+      "description": "I reduced the engineering workload and slashed EC2 costs of a critical Lambda team by migrating asynchronous event invoke executions to an internal shared queue + poller infra service."
+    }
+  ],
+  "projects": [
+    {
+      "title": "CougarCS",
+      "timespan": "Spring 2025",
+      "description": "During my time as Webmaster, I revamped the homepage of UH's biggest CS club.",
+      "hue": 350,
+      "link": "https://cougarcs.com",
+      "CTA": "Visit Site"
+    },
+    {
+      "title": "Remark Image",
+      "timespan": "Spring 2023",
+      "description": "Remark plugin for Astro that automatically optimizes images found in markdown files.",
+      "hue": 280,
+      "link": "https://www.npmjs.com/package/astro-remark-eleventy-image",
+      "CTA": "NPM Package"
+    },
+    {
+      "title": "Melrady",
+      "timespan": "Summer 2022",
+      "description": "Analyze the makeup of up to 4 songs with this Spotify song comparison chart creator.",
+      "hue": 141,
+      "link": "https://melrady.com",
+      "CTA": "Visit Site"
+    },
+    {
+      "title": "Reguession",
+      "timespan": "Spring 2022",
+      "description": "A minigame about linear regressions that I built for my AP Statistics class.",
+      "hue": 200,
+      "link": "https://reguession.netlify.app",
+      "CTA": "Visit Site"
+    },
+    {
+      "title": "Sorgra",
+      "timespan": "Fall 2021",
+      "description": "Massively improved version of ELPath that I ported to the web using Typescript React.",
+      "hue": 217,
+      "link": "https://sorgra.netlify.app",
+      "CTA": "Visit Site"
+    },
+    {
+      "title": "ELPath",
+      "timespan": "Summer 2021",
+      "description": "Sorting and pathfinding algorithm simulation application built in Python.",
+      "hue": 47,
+      "link": "https://github.com/ChrisOh431/ELPath",
+      "CTA": "View GitHub"
+    }
+  ]
+}
