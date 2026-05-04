@@ -2,6 +2,15 @@
 @plugin "@tailwindcss/typography";
 
 @theme inline {
-  --font-display: var(--font-pp-mori);
   --font-sans: var(--font-hyperlegible);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply tracking-wide;
+  }
 }

@@ -21,7 +21,6 @@ const { title = "Simun", description } = Astro.props;
     <link rel="icon" href="/favicon.ico" />
     <meta name="generator" content="❤️ love ❤️" />
     <SEO title={title} description={description} />
-    <Font cssVariable="--font-pp-mori" />
     <Font cssVariable="--font-hyperlegible" />
   </head>
   <body
@@ -47,6 +46,7 @@ const { title = "Simun", description } = Astro.props;
     margin: 0;
     width: 100%;
     height: 100%;
+    font-weight: 400;
     font-family:
       var(--font-sans),
       system-ui,
