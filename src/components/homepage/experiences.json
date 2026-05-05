@@ -46,6 +46,14 @@
       "CTA": "Visit Site"
     },
     {
+      "title": "Atypeical",
+      "description": "A typing test app I built as my (winning) submission to the 2023 Swift Student Challenge.",
+      "CTA": "View GitHub",
+      "link": "https://github.com/ChrisOh431/Atypeical",
+      "hue": 211,
+      "timespan": "Spring 2023"
+    },
+    {
       "title": "Remark Image",
       "timespan": "Spring 2023",
       "description": "Remark plugin for Astro that automatically optimizes images found in markdown files.",

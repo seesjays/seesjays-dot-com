@@ -20,5 +20,7 @@ const featuredProj: Project = {
     class="grid auto-rows-fr grid-cols-3 gap-0.5 bg-neutral-100 p-0.5 max-md:grid-cols-2 max-sm:grid-cols-1"
   >
     {projects.map((project) => <ProjectCard project={project} />)}
+    <div class="h-full w-full bg-white max-md:grid-cols-2 max-sm:hidden"></div>
+    <div class="h-full w-full bg-white max-md:hidden max-sm:hidden"></div>
   </div>
 </div>
