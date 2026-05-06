@@ -24,3 +24,6 @@ pnpm-debug.log*
 .idea/
 
 .prettierrc
+
+# local git worktrees
+.worktrees/
