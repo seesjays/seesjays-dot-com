@@ -25,9 +25,11 @@ const { title = "Simun", description } = Astro.props;
     <Font cssVariable="--font-hyperlegible" />
   </head>
   <body
-    class="grid min-h-screen grid-flow-col auto-rows-min grid-cols-[1fr_minmax(32rem,56rem)_1fr]"
+    class="grid min-h-screen grid-flow-col auto-rows-min grid-cols-[1fr_minmax(32rem,56rem)_1fr] max-sm:grid-cols-1"
   >
-    <div class="col-start-2 h-fit border-x-2 border-neutral-100 px-8">
+    <div
+      class="col-start-2 h-fit border-x-2 border-neutral-100 px-8 max-sm:col-span-full max-sm:col-start-1 max-sm:px-4"
+    >
       <Topbar />
     </div>
     <div
@@ -38,11 +40,13 @@ const { title = "Simun", description } = Astro.props;
     </div>
     <div
       id="sunset-cover"
-      class="z-10 col-start-2 row-start-2 h-full border-y border-neutral-200 bg-white/20 max-md:bg-transparent"
+      class="z-10 col-start-2 row-start-2 h-full border-y border-neutral-200 sm:backdrop-contrast-104"
     >
     </div>
 
-    <main class="col-start-2 border-x-2 border-neutral-100 px-8 pt-12 pb-64">
+    <main
+      class="col-start-2 border-x-2 border-neutral-100 px-8 pt-12 pb-64 max-sm:col-start-1 max-sm:col-end-4 max-sm:px-4 max-sm:pt-5"
+    >
       <slot />
     </main>
   </body>

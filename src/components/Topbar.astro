@@ -1,11 +1,11 @@
 ---
-
+import TopbarLink from "./TopbarLink.astro";
 ---
 
 <header class="w-full">
   <nav class="flex w-full gap-7 pt-4 pb-3">
-    <a> Christian Ohanaja </a>
-    <a> Blog </a>
-    <a> Contact </a>
+    <TopbarLink class="font-medium" href="/"> Christian Ohanaja </TopbarLink>
+    <TopbarLink href="/blog"> Blog </TopbarLink>
+    <TopbarLink href="/#contact"> Contact </TopbarLink>
   </nav>
 </header>

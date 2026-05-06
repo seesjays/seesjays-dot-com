@@ -1,0 +1,46 @@
+---
+import { getCollection } from "astro:content";
+
+import Layout from "./Layout.astro";
+import PostList from "../components/blog/PostList.astro";
+import type { InferEntrySchema } from "astro:content";
+import type { RenderedContent } from "astro:content";
+
+export type PostList = {
+  id: string;
+  body?: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">;
+  rendered?: RenderedContent;
+  filePath?: string;
+}[];
+
+const { title, selectedBlogSector } = Astro.props;
+
+const allPosts = (await getCollection("blog")).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+
+const posts = allPosts.filter(
+  (post) => post.data.sector === selectedBlogSector,
+);
+---
+
+<Layout title={title}>
+  <div
+    class="prose-lg prose-a:underline prose-a:text-[#774522] prose-a:underline-offset-4 prose-a:decoration-1 max-sm:mt-4"
+  >
+    <div id="greet">
+      <h1 class="mb-4 font-sans text-5xl font-black text-[#8B5339]">
+        {title}
+      </h1>
+      <p class="mt-4 max-w-sm">
+        <slot name="desc" />
+      </p>
+    </div>
+
+    <div id="posts">
+      <PostList slot="general" posts={posts} />
+    </div>
+  </div>
+</Layout>

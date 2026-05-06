@@ -1,0 +1,56 @@
+---
+
+---
+
+<div class="grid w-full grid-cols-3">
+  <input
+    id="category-general"
+    type="radio"
+    name="category"
+    value="general"
+    class="peer/general sr-only"
+    checked
+  />
+  <input
+    id="category-software"
+    type="radio"
+    name="category"
+    value="software"
+    class="peer/software sr-only"
+  />
+  <input
+    id="category-extras"
+    type="radio"
+    name="category"
+    value="extras"
+    class="peer/extras sr-only"
+  />
+
+  <label
+    for="category-general"
+    class="h-full w-full cursor-pointer pt-3 pb-2 text-center peer-checked/general:border-b-2 peer-checked/general:border-orange-800/50 peer-checked/general:bg-orange-300/5 peer-checked/general:font-bold"
+    >Posts</label
+  >
+  <label
+    for="category-software"
+    class="h-full w-full cursor-pointer pt-3 pb-2 text-center peer-checked/software:border-b-2 peer-checked/software:border-orange-800/50 peer-checked/software:bg-orange-300/5 peer-checked/software:font-bold"
+    >Software</label
+  >
+  <label
+    for="category-extras"
+    class="h-full w-full cursor-pointer pt-3 pb-2 text-center peer-checked/extras:border-b-2 peer-checked/extras:border-orange-800/50 peer-checked/extras:bg-orange-300/5 peer-checked/extras:font-bold"
+    >Extras</label
+  >
+
+  <div class="col-span-3 hidden peer-checked/general:block">
+    <slot name="general" />
+  </div>
+
+  <div class="col-span-3 hidden peer-checked/software:block">
+    <slot name="software" />
+  </div>
+
+  <div class="col-span-3 hidden peer-checked/extras:block">
+    <slot name="extras" />
+  </div>
+</div>

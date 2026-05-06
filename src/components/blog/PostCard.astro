@@ -1,0 +1,17 @@
+---
+import Date from "./Date.astro";
+
+const { post } = Astro.props;
+---
+
+<a
+  href={post.link}
+  class="border border-neutral-100 px-4 pt-3 pr-4 pb-2 no-underline transition-colors duration-150 hover:bg-orange-50/30 max-sm:flex-col max-sm:items-start max-sm:py-2 max-sm:pl-4"
+>
+  <h1 class="text-tonad-400 dark:text-tonal-800 text-xl font-medium">
+    {post.title}
+  </h1>
+  <div class="text-tonad-200 text-sm no-underline">
+    {post.sector != "extras" ? <Date date={post.date} /> : undefined}
+  </div>
+</a>

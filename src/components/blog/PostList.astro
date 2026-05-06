@@ -1,0 +1,25 @@
+---
+import type { PostList } from "../../pages/blog/index.astro";
+import PostCard from "./PostCard.astro";
+
+interface Props {
+  posts: PostList;
+}
+
+const { posts } = Astro.props;
+---
+
+<div class="not-prose mt-6 flex flex-col gap-3">
+  {
+    posts.map((post) => (
+      <PostCard
+        post={{
+          title: post.data.title,
+          date: post.data.date,
+          link: `/blog/${post.id}`,
+          sector: post.data.sector,
+        }}
+      />
+    ))
+  }
+</div>

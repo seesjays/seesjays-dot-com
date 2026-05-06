@@ -3,14 +3,7 @@ import InnerSunset from "./InnserSunset.jsx";
 ---
 
 <div class="sunset h-full min-h-64 w-full">
-  <InnerSunset client:load />
+  <InnerSunset client:only="react">
+    <div class="h-full w-full bg-[#FFE9D5]"></div>
+  </InnerSunset>
 </div>
-
-<style>
-  .sunset {
-    box-sizing: border-box;
-    background: radial-gradient(25% 120% at 50% 120%, #f0be84 0%, #fef1d5 100%);
-    background-position: bottom center;
-    background-size: 300rem 100%;
-  }
-</style>
