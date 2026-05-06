@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "How to open the same directory in a new iTerm2 window or tab"
 date: "2022-08-13"
 subtext: "cd infinity is now a thing of the past."
+sector: technical
 ---
 
 Sometimes I want the same directory in multiple terminals, such as when I’m editing a site’s code in Neovim in one tab while having the site loaded and hot reloading in another tab.

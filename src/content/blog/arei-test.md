@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "AREI Tests"
 date: "2023-02-12"
 subtext: "I developed a package so people could easily optimize images on their Astro sites. Here's where I test it"
+sector: technical
 hue: 280
 ---
 

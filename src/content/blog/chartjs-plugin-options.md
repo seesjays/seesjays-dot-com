@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Accessing Plugin Options in ChartJS"
 date: "2022-06-24"
 subtext: "When I built a ChartJS plugin, I had to access the options in a kinda weird way."
+sector: technical
 hue: 45
 ---
 

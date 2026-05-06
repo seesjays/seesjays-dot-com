@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Test Object Please Ignore"
 date: "2022-04-05"
 subtext: "Testing out some markdown components."
+sector: technical
 ---
 
 This is a wonderful spot to test out some markdown pieces that I'd like to have pages styled with. Granted, I am most definitely too lazy to make some placeholder text for _every_ markdown attribute there is on this big blue Earth, so I'm just using stuff I copypasted from the [`markdown-it`](https://markdown-it.github.io) placeholder.

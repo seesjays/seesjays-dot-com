@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Spotify’s Authorization Code Flow For Dummies"
 date: "2022-07-08"
 subtext: "A depthy guide on how to implement Spotify's Authorization Code Flow."
+sector: technical
 hue: 135
 ---
 

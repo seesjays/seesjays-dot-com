@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Sharing Objects Between Express Routes/Middleware"
 date: "2022-06-26"
 subtext: "Ways to put the same object in multiple routes and middleware in Express."
+sector: technical
 hue: 45
 ---
 

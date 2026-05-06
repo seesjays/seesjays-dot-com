@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "MacOS Screen Time HelpViewer Bugfix"
 date: "2022-06-16"
 subtext: "Quick fix to get your Screen Time back from this dreadful bug."
+sector: technical
 ---
 
 I like to keep track of my Screen Time from time to time and back when I got my MacBook I had a weird bug where the native MacOS HelpViewer application would log *a lot* of Screen Time, like literally the entire day.

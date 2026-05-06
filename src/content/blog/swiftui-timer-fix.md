@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "How to keep a SwiftUI Timer publishing even when the UI updates"
 date: "2023-04-24"
 subtext: "Tick tock tick tock: SwiftUI’s timer needed a quick tweak."
+sector: technical
 hue: 9
 ---
 

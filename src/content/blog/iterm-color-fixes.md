@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Fix iTerm2 Neovim Dim Colors/Color Space Issues"
 date: "2022-08-11"
 subtext: "Some useful fixes for iTerm color issues I ran into."
+sector: technical
 ---
 
 I’ve recently been spending some time configuring Neovim to look and feel the way I’d like. An issue I ran into from setting up color themes, however, was that my iTerm2 colors looked pretty off from what the color theme previews did, and even more off from the same theme running in Alacritty, which I installed to troubleshoot this stuff (I really don’t wanna use Alacritty, iTerm2 is super nice.)

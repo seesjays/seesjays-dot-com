@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Modularizing Routes in Express"
 date: "2022-06-24"
 subtext: "Turn your monolith of an app into multiple parts of a whole."
+sector: technical
 hue: 45
 ---
 

@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "How to easily modify the body’s CSS on a Gatsby site"
 date: "2022-04-18"
 subtext: "Change the body's CSS any way you want on any Gatsby page using React-Helmet."
+sector: technical
 hue: 266
 ---
 

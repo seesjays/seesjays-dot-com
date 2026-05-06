@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Updating Chart Type in ChartJS"
 date: "2022-06-28"
 subtext: "How to update the type of a ChartJS chart"
+sector: technical
 hue: 45
 ---
 

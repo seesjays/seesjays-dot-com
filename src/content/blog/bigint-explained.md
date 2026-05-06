@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "JavaScript BigInts Explained"
 date: "2022-04-20"
 subtext: "What's the Big Deal around the BigInt? What makes it better or worse compared to regular JavaScript numbers"
+sector: technical
 hue: 45
 ---
 

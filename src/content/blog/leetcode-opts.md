@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: 'Fun LeetCode "Optimizations"'
 date: "2022-07-19"
 subtext: "INSANE LeetCode Runtime Trick to get huge FAANG salaries!"
+sector: technical
 hue: 36
 ---
 

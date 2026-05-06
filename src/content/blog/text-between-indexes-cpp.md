@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "How to get text between two indexes in C++"
 date: "2022-10-06"
 subtext: "Python and JS are so much more comfy for this kinda thing but we don’t get that comfort here"
+sector: technical
 hue: 207
 ---
 
@@ -59,11 +60,3 @@ int main(int argc, char *argv[])
     // id:7583;username:eevee;score:92;grade:A
 }
 ```
-
-
-
-
-
-
-
-

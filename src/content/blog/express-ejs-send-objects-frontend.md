@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Render an EJS frontend with objects from the backend"
 date: "2022-06-27"
 subtext: "How to send objects from the backend to an EJS frontend."
+sector: technical
 hue: 45
 ---
 
