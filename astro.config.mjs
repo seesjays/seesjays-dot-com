@@ -7,11 +7,9 @@ import sitemap from "@astrojs/sitemap";
 
 import tailwindcss from "@tailwindcss/vite";
 
-import react from "@astrojs/react";
-
 // https://astro.build/config
 export default defineConfig({
-  integrations: [icon(), sitemap(), react()],
+  integrations: [icon(), sitemap()],
 
   fonts: [
     {

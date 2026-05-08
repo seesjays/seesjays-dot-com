@@ -1,5 +1,6 @@
 ---
 import { Font } from "astro:assets";
+import { ClientRouter } from "astro:transitions";
 import { SEO } from "astro-seo";
 import Topbar from "../components/Topbar.astro";
 import "../styles/global.css";
@@ -23,6 +24,7 @@ const { title = "Simun", description } = Astro.props;
     <meta name="generator" content="❤️ love ❤️" />
     <SEO title={title} description={description} />
     <Font cssVariable="--font-hyperlegible" />
+    <ClientRouter />
   </head>
   <body
     class="grid min-h-screen grid-flow-col auto-rows-min grid-cols-[1fr_minmax(32rem,56rem)_1fr] max-sm:grid-cols-1"
@@ -34,13 +36,15 @@ const { title = "Simun", description } = Astro.props;
     </div>
     <div
       id="sunset-district"
-      class="col-span-full col-start-1 row-start-2 h-full border-y border-neutral-200"
+      class="relative col-span-full col-start-1 row-start-2 h-64 min-w-0 overflow-x-clip border-y border-neutral-200"
     >
       <Sunset />
     </div>
     <div
       id="sunset-cover"
       class="z-10 col-start-2 row-start-2 h-full border-y border-neutral-200 sm:backdrop-contrast-104"
+      transition:persist
+      transition:animate="none"
     >
     </div>
 

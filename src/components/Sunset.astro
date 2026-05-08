@@ -1,9 +1,73 @@
----
-import InnerSunset from "./InnserSunset.jsx";
----
-
-<div class="sunset h-full min-h-64 w-full">
-  <InnerSunset client:only="react">
-    <div class="h-full w-full bg-[#FFE9D5]"></div>
-  </InnerSunset>
+<div
+  class="sunset absolute inset-y-0 left-1/2 w-[clamp(100rem,100vw,256rem)] -translate-x-1/2"
+  transition:persist
+  transition:animate="none"
+>
+  <div id="sunset-shader" class="h-full w-full bg-white"></div>
 </div>
+
+<script>
+  import {
+    GrainGradientShapes,
+    ShaderFitOptions,
+    ShaderMount,
+    defaultPatternSizing,
+    getShaderColorFromString,
+    getShaderNoiseTexture,
+    grainGradientFragmentShader,
+  } from "@paper-design/shaders";
+
+  let noiseTexturePromise;
+
+  const getLoadedNoiseTexture = () => {
+    noiseTexturePromise ??= new Promise((resolve, reject) => {
+      const image = getShaderNoiseTexture();
+
+      if (!image) {
+        resolve(undefined);
+        return;
+      }
+
+      if (image.complete && image.naturalWidth > 0) {
+        resolve(image);
+        return;
+      }
+
+      image.addEventListener("load", () => resolve(image), { once: true });
+      image.addEventListener("error", reject, { once: true });
+    });
+
+    return noiseTexturePromise;
+  };
+
+  async function createShaderConfig() {
+    return {
+      u_colorBack: getShaderColorFromString("#00000000"),
+      u_colors: ["#F2A243", "#FFE1CD", "#FFF2E2"].map(
+        getShaderColorFromString,
+      ),
+      u_colorsCount: 3,
+      u_softness: 1,
+      u_intensity: 0.98,
+      u_noise: 1,
+      u_shape: GrainGradientShapes["wave"],
+      u_noiseTexture: await getLoadedNoiseTexture(),
+      u_fit: ShaderFitOptions[defaultPatternSizing.fit],
+      u_scale: 0.5,
+      u_rotation: 0,
+      u_offsetX: 0,
+      u_offsetY: 0.05,
+    };
+  }
+
+  new ShaderMount(
+    document.querySelector("#sunset-shader")!,
+    grainGradientFragmentShader,
+    await createShaderConfig(),
+    undefined,
+    1, // speed
+    0,
+    undefined,
+    (1920 * 1080) / 5,
+  );
+</script>
