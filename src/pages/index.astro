@@ -11,9 +11,13 @@ import moose from "../images/moosie.png";
   <div
     class="prose prose-lg prose-a:underline prose-a:text-[#774522] prose-a:underline-offset-4 prose-a:decoration-1 prose-li:marker:text-[#774522] w-full max-w-none text-gray-900 max-sm:mt-4"
   >
-    <div class="grid grid-cols-2 max-md:grid-cols-1 max-sm:gap-1 max-sm:items-center">
+    <div
+      class="grid grid-cols-2 max-md:grid-cols-1 max-sm:items-center max-sm:gap-1"
+    >
       <div id="greet">
-        <h1 class="mb-4 font-sans text-5xl font-black max-sm:text-3xl">
+        <h1
+          class="mb-4 font-sans text-5xl leading-tight font-black max-sm:text-3xl"
+        >
           Hi! My name's <span class="text-[#8B5339]">Christian.</span>
         </h1>
         <p class="mt-4 max-w-lg">
@@ -25,16 +29,26 @@ import moose from "../images/moosie.png";
           the SF Bay Area.
         </p>
         <p class="mt-4 max-w-md">
-          I'm always happy to chat! Here's my LinkedIn, my Instagram, my Github,
-          and my Twitter.
+          Here's my <a href="https://www.linkedin.com/in/seesjays">LinkedIn,</a> my
+          <a href="https://github.com/seesjays">GitHub,</a> my <a
+            href="https://www.instagram.com/seesjays/">Instagram,</a
+          > and my <a href="https://www.twitter.com/seesjays">Twitter.</a>
+
+          I'm always happy to chat!
         </p>
       </div>
-      <div id="moose">
-        <figure class="w-3/4 max-sm:w-11/12 max-md:w-3/5 mx-auto">
+
+      <div
+        id="moose"
+        class="rotate-3 cursor-grab transition-transform duration-300 hover:rotate-0"
+      >
+        <figure
+          class="mr-10 ml-auto w-75 max-md:mx-auto max-md:w-3/5 max-sm:mx-auto max-sm:w-82"
+        >
           <Image
             src={moose}
             alt="My chihuaha-shih-tzu Moose, my favorite part of Texas."
-            class="border-2 border-neutral-300"
+            class="rounded-md border-2 border-neutral-200 p-0.5"
           />
           <figcaption class="mt-2 text-center text-sm text-gray-600">
             Moose, the best chihuaha-shih-tzu you've ever seen probably.
@@ -51,31 +65,6 @@ import moose from "../images/moosie.png";
     <div id="projects" class="mt-16">
       <h2 class="mb-4 font-bold">Projects</h2>
       <Projex />
-    </div>
-
-    <div id="contact" class="mt-16">
-      <h2 class="mb-4 font-bold">Contact</h2>
-      <p>Reach out anytime, I'm always happy to chat!</p>
-      <ul class="list-inside list-disc pl-0">
-        <li>
-          LinkedIn: <a href="https://linkedin.com/in/seesjays"
-            >linkedin.com/in/seesjays</a
-          >
-        </li>
-        <li>
-          GitHub: <a href="https://github.com/seesjays">github.com/seesjays</a>
-        </li>
-        <li>
-          Twitter: <a href="https://twitter.com/seesjays"
-            >twitter.com/seesjays</a
-          >
-        </li>
-        <li>
-          Instagram: <a href="https://instagram.com/seesjays"
-            >instagram.com/seesjays</a
-          >
-        </li>
-      </ul>
     </div>
   </div>
 </Layout>
