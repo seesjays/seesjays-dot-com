@@ -1,31 +1,46 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-import Picrow from "../components/homepage/Picrow.astro";
 import Work from "../components/homepage/Work.astro";
 import Projex from "../components/homepage/Projex.astro";
+import { Image } from "astro:assets";
+import moose from "../images/moosie.png";
 ---
 
 <Layout title="Home">
   <div
     class="prose prose-lg prose-a:underline prose-a:text-[#774522] prose-a:underline-offset-4 prose-a:decoration-1 prose-li:marker:text-[#774522] w-full max-w-none text-gray-900 max-sm:mt-4"
   >
-    <div id="greet">
-      <h1 class="mb-4 font-sans text-5xl max-sm:text-3xl font-black">
-        Hi! My name's <span class="text-[#8B5339]">Christian.</span>
-      </h1>
-      <p class="mt-4 max-w-lg">
-        I enjoy building all sorts of unique software, <br />from the frontend
-        to the backend and everything in between.
-      </p>
-      <p class="mt-4 max-w-md">
-        I’m currently doing some distributed systems work at yo mama house in
-        the SF Bay Area.
-      </p>
-    </div>
-
-    <div id="pics" class="mt-12">
-      <Picrow />
+    <div class="grid grid-cols-2 max-md:grid-cols-1 max-sm:gap-1 max-sm:items-center">
+      <div id="greet">
+        <h1 class="mb-4 font-sans text-5xl font-black max-sm:text-3xl">
+          Hi! My name's <span class="text-[#8B5339]">Christian.</span>
+        </h1>
+        <p class="mt-4 max-w-lg">
+          I enjoy building all sorts of unique software, <br />from the frontend
+          to the backend and everything in between.
+        </p>
+        <p class="mt-4 max-w-md">
+          I'm currently doing some distributed systems work at yo mama house in
+          the SF Bay Area.
+        </p>
+        <p class="mt-4 max-w-md">
+          I'm always happy to chat! Here's my LinkedIn, my Instagram, my Github,
+          and my Twitter.
+        </p>
+      </div>
+      <div id="moose">
+        <figure class="w-3/4 max-sm:w-11/12 max-md:w-3/5 mx-auto">
+          <Image
+            src={moose}
+            alt="My chihuaha-shih-tzu Moose, my favorite part of Texas."
+            class="border-2 border-neutral-300"
+          />
+          <figcaption class="mt-2 text-center text-sm text-gray-600">
+            Moose, the best chihuaha-shih-tzu you've ever seen probably.
+          </figcaption>
+        </figure>
+      </div>
     </div>
 
     <div id="work-exp" class="mt-16">
