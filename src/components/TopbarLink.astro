@@ -8,7 +8,7 @@ const isActive = href === pathname || href === "/" + (subpath?.[0] || "");
 <a
   href={href}
   class:list={[
-    "decoration-orange-800/50 decoration-2 underline-offset-7 [&.currentPage]:underline",
+    "decoration-orange-800/70 dark:decoration-orange-400 decoration-2 underline-offset-7 [&.currentPage]:underline",
     className,
     { currentPage: isActive },
   ]}

@@ -17,6 +17,28 @@ const { title = "Simun", description } = Astro.props;
 <!doctype html>
 <html lang="en">
   <head>
+    <script is:inline>
+      const theme = (() => {
+        if (
+          typeof localStorage !== "undefined" &&
+          localStorage.getItem("color-schema")
+        ) {
+          return localStorage.getItem("color-schema");
+        }
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          return "dark";
+        }
+        return "light";
+      })();
+
+      if (theme === "light") {
+        document.documentElement.classList.remove("dark");
+      } else {
+        document.documentElement.classList.add("dark");
+      }
+      window.localStorage.setItem("color-schema", theme);
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -27,29 +49,29 @@ const { title = "Simun", description } = Astro.props;
     <ClientRouter />
   </head>
   <body
-    class="grid min-h-screen grid-flow-col auto-rows-min grid-cols-[1fr_minmax(32rem,56rem)_1fr] max-sm:grid-cols-1"
+    class="grid min-h-screen grid-flow-col auto-rows-min grid-cols-[1fr_minmax(32rem,56rem)_1fr] max-sm:grid-cols-1 dark:bg-neutral-900"
   >
     <div
-      class="col-start-2 h-fit border-x-2 border-neutral-100 px-8 max-sm:col-span-full max-sm:col-start-1 max-sm:px-4"
+      class="col-start-2 h-fit border-x-2 border-neutral-100 px-8 max-sm:col-span-full max-sm:col-start-1 max-sm:px-4 dark:border-neutral-800"
     >
       <Topbar />
     </div>
     <div
       id="sunset-district"
-      class="relative col-span-full col-start-1 row-start-2 h-48 min-w-0 overflow-x-clip border-y border-neutral-200"
+      class="relative col-span-full col-start-1 row-start-2 border-y-2 border-neutral-200 dark:border-neutral-800"
     >
       <Sunset />
     </div>
     <div
       id="sunset-cover"
-      class="z-10 col-start-2 row-start-2 h-full border-y border-neutral-200 sm:backdrop-contrast-104"
+      class="z-10 col-start-2 row-start-2 h-full sm:backdrop-brightness-110 dark:border-neutral-800"
       transition:persist
       transition:animate="none"
     >
     </div>
 
     <main
-      class="col-start-2 border-x-2 border-neutral-100 px-8 pt-12 pb-64 max-sm:col-start-1 max-sm:col-end-4 max-sm:px-4 max-sm:pt-5"
+      class="col-start-2 border-x-2 border-neutral-100 px-8 pt-12 pb-64 max-sm:col-start-1 max-sm:col-end-4 max-sm:px-4 max-sm:pt-5 dark:border-neutral-800"
     >
       <slot />
     </main>
