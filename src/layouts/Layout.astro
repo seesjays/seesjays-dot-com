@@ -11,7 +11,7 @@ interface Props {
   description?: string;
 }
 
-const { title = "Simun", description } = Astro.props;
+const { title = "Christian Ohanaja", description } = Astro.props;
 ---
 
 <!doctype html>
@@ -66,18 +66,18 @@ const { title = "Simun", description } = Astro.props;
     </div>
     <div
       id="sunset-district"
-      class="relative col-span-full col-start-1 row-start-2 border-y-2 border-neutral-200 dark:border-neutral-800"
+      class="relative col-span-full col-start-1 row-start-2 border-y-2 border-neutral-100 dark:border-neutral-800"
     >
       <Sunset />
     </div>
     <div
       id="sunset-cover"
-      class="z-10 col-start-2 row-start-2 h-full sm:backdrop-brightness-110 dark:border-neutral-800"
+      class="z-10 col-start-2 row-start-2 h-full border-y-2 border-neutral-100 dark:border-neutral-800"
     >
     </div>
 
     <main
-      class="col-start-2 border-x-2 border-neutral-100 px-8 pt-12 pb-64 max-sm:col-start-1 max-sm:col-end-4 max-sm:px-4 max-sm:pt-5 dark:border-neutral-800"
+      class="col-start-2 border-x-2 border-neutral-100 px-8 pt-8 pb-64 max-sm:col-start-1 max-sm:col-end-4 max-sm:px-4 max-sm:pt-3 dark:border-neutral-800"
     >
       <slot />
     </main>

@@ -9,7 +9,7 @@ import moose from "../images/moosie.png";
 
 <Layout title="Home">
   <div
-    class="subpixel-antialiased prose dark:prose-invert prose-lg prose-a:underline prose-a:text-[#774522] dark:prose-a:text-orange-300 prose-a:underline-offset-4 prose-a:decoration-1 prose-li:marker:text-[#774522] w-full max-w-none text-gray-900 max-sm:mt-4 dark:text-neutral-50"
+    class="prose dark:prose-invert prose-lg prose-a:underline prose-a:text-[#774522] dark:prose-a:text-orange-300 prose-a:underline-offset-4 prose-a:decoration-1 prose-li:marker:text-[#774522] w-full max-w-none text-gray-900 subpixel-antialiased max-sm:mt-4 dark:text-neutral-50"
   >
     <div
       class="grid grid-cols-2 max-md:grid-cols-1 max-sm:items-center max-sm:gap-1"
@@ -42,15 +42,17 @@ import moose from "../images/moosie.png";
 
       <div id="moose">
         <figure
-          class="rotate-3 transition-transform duration-300 hover:rotate-0 hover:scale-105 mr-10 ml-auto w-75 max-md:mx-auto max-md:w-3/5 max-sm:mx-auto max-sm:w-82"
+          class="mr-10 ml-auto w-75 rotate-3 transition-transform duration-300 hover:scale-105 hover:rotate-0 max-md:mx-auto max-md:w-3/5 max-sm:mx-auto max-sm:w-82"
         >
           <Image
             src={moose}
             loading={"eager"}
             alt="My chihuaha-shih-tzu Moose, my favorite part of Texas."
-            class="rounded-md border-3 border-neutral-200 dark:border-neutral-700 cursor-grab p-1"
+            class="cursor-grab rounded-md border-3 border-neutral-200 p-1 dark:border-neutral-700"
           />
-          <figcaption class="mt-2 text-center text-sm text-gray-600 dark:text-gray-200 font-medium p-0.5">
+          <figcaption
+            class="mt-2 p-0.5 text-center text-sm font-medium text-gray-600 dark:text-gray-200"
+          >
             His name's Moose!
           </figcaption>
         </figure>
