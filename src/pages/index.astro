@@ -9,7 +9,7 @@ import moose from "../images/moosie.png";
 
 <Layout title="Home">
   <div
-    class="prose dark:prose-invert prose-lg prose-a:underline prose-a:text-[#774522] dark:prose-a:text-orange-300 prose-a:underline-offset-4 prose-a:decoration-1 prose-li:marker:text-[#774522] w-full max-w-none text-gray-900 max-sm:mt-4 dark:text-neutral-50"
+    class="subpixel-antialiased prose dark:prose-invert prose-lg prose-a:underline prose-a:text-[#774522] dark:prose-a:text-orange-300 prose-a:underline-offset-4 prose-a:decoration-1 prose-li:marker:text-[#774522] w-full max-w-none text-gray-900 max-sm:mt-4 dark:text-neutral-50"
   >
     <div
       class="grid grid-cols-2 max-md:grid-cols-1 max-sm:items-center max-sm:gap-1"
@@ -46,6 +46,7 @@ import moose from "../images/moosie.png";
         >
           <Image
             src={moose}
+            loading={"eager"}
             alt="My chihuaha-shih-tzu Moose, my favorite part of Texas."
             class="rounded-md border-3 border-neutral-200 dark:border-neutral-700 cursor-grab p-1"
           />

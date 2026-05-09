@@ -15,13 +15,13 @@ const dateString = dayjs(date).format("MMMM D, YYYY");
 <Layout title={title}>
   <div class="text-left">
     <article
-      class="prose prose-lg prose-headings:font-extrabold prose-h1:text-[#8B5339] prose-p:leading-loose prose-a:text-[#774522] prose-a:underline-offset-2 prose-blockquote:border-l-2 prose-blockquote:border-orange-800 prose-blockquote:bg-orange-500/5 prose-blockquote:bg-opacity-20 prose-blockquote:px-5 prose-img:mx-auto prose-hr:my-12 prose-hr:h-0.5 prose-hr:border-none prose-hr:bg-orange-900/30 max-sm:prose-base max-w-none tracking-wide text-gray-900 antialiased marker:font-bold marker:text-orange-800 [&_code:not(pre_code)]:mx-1 [&_code:not(pre_code)]:rounded-md [&_code:not(pre_code)]:bg-orange-500/10 [&_code:not(pre_code)]:px-3 [&_code:not(pre_code)]:py-1 [&_code:not(pre_code)]:font-semibold [&_code:not(pre_code)]:text-orange-950"
+      class="prose prose-lg prose-headings:font-extrabold prose-h1:text-[#8B5339] dark:prose-h1:text-orange-400 prose-p:leading-loose dark:prose-a:text-orange-300 prose-a:underline-offset-2 prose-blockquote:border-l-2 prose-blockquote:border-orange-800 dark:prose-blockquote:border-orange-300 prose-blockquote:bg-orange-500/5 dark:prose-blockquote:bg-orange-500/8 prose-blockquote:px-5 prose-img:mx-auto prose-hr:my-12 prose-hr:h-0.5 prose-hr:border-none prose-hr:bg-orange-900/30 dark:prose-hr:bg-orange-400/40 max-sm:prose-base max-w-none tracking-wide text-gray-900 subpixel-antialiased marker:font-bold marker:text-orange-800 dark:marker:text-orange-400 [&_code:not(pre_code)]:mx-1 [&_code:not(pre_code)]:rounded-md [&_code:not(pre_code)]:bg-orange-500/10 dark:[&_code:not(pre_code)]:bg-orange-400/20 [&_code:not(pre_code)]:px-3 [&_code:not(pre_code)]:py-1 [&_code:not(pre_code)]:font-semibold [&_code:not(pre_code)]:text-orange-950 dark:[&_code:not(pre_code)]:text-orange-200 dark:prose-invert dark:text-neutral-50"
     >
       <h1 class="mb-2 leading-tight max-sm:mb-0!">{title}</h1>
       {sector === "extras" ? <ExtraCallout /> : undefined}
       {
         sector != "extras" ? (
-          <span class="text-base font-semibold">
+          <span class="text-base font-semibold text-gray-700 dark:text-gray-200">
             <time datetime={dateString}>{dateString}</time>
           </span>
         ) : undefined

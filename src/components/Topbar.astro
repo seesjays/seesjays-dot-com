@@ -1,10 +1,12 @@
 ---
+import ThemeToggle from "./ThemeToggle.astro";
 import TopbarLink from "./TopbarLink.astro";
 ---
 
 <header class="w-full">
-  <nav class="flex w-full gap-7 pt-4 pb-3 dark:text-white">
+  <nav class="flex w-full items-center gap-7 pt-4 pb-3 dark:text-white">
     <TopbarLink class="font-medium" href="/"> Christian Ohanaja </TopbarLink>
     <TopbarLink href="/blog"> Blog </TopbarLink>
+    <ThemeToggle transition:persist />
   </nav>
 </header>
