@@ -7,7 +7,7 @@ sector: technical
 hue: 45
 ---
 
-If your routes are [modularized across different files](https://cjohanaja.com/posts/modularizing-routes-expressjs) (like they should be) you may run into the trouble of needing Object/Variable X in a modularized route as well as your main `app.js` file.
+If your routes are [modularized across different files](https://cjohanaja.com/blog/modularizing-routes-expressjs) (like they should be) you may run into the trouble of needing Object/Variable X in a modularized route as well as your main `app.js` file.
 
 ```js
 // routeA.js

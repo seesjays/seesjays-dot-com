@@ -12,7 +12,7 @@ Granted, I know that there’s always room for competition in a sector, that’s
 
 This question only arises because I’ve found that I, being the massive hypocrite that I am, realized that I’ve unwittingly installed **three** of the buggers: Bear, Notability, and Notion.
 
-The value prop for Bear is easy: simple Markdown notes. I rarely, if ever, use Bear’s other features, the sole exception being its nice integrations with [Apple Shortcuts.](https://cjohanaja.com/musings/apple-shortcuts-lego-mindstorms)
+The value prop for Bear is easy: simple Markdown notes. I rarely, if ever, use Bear’s other features, the sole exception being its nice integrations with [Apple Shortcuts.](https://cjohanaja.com/blog/apple-shortcuts-lego-mindstorms)
 
 Notability and Notion are the harder ones to justify. I haven’t used Notability outside of AP Statistics, and that was just so I could easily color code things. I didn’t even use their main gimmick — audio recording. Technically I could’ve used stock Apple Notes.
 

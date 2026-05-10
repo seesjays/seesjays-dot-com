@@ -34,11 +34,10 @@ Back when I was making the initial design I just wanted it to stand out more tha
 
 ## Making the design + code 10 times simpler using TailwindCSS
 
-I used to have a really complex setup that used [styled-components](https://styled-components.com/) and custom React props and CSS variables and Sass that made things really, **really** annoying to work with. I’m not gonna bore you with the details, but I did [rant about it.](https://cjohanaja.com/musings/tech-debt/)
+I used to have a really complex setup that used [styled-components](https://styled-components.com/) and custom React props and CSS variables and Sass that made things really, **really** annoying to work with. I’m not gonna bore you with the details, but I did [rant about it.](https://cjohanaja.com/blog/tech-debt/)
 
 Anyway, now it’s all CSS variables and some magic I weaved with [Tailwind.](https://tailwindcss.com/) It’s super nice having an expansive system I can just pick colors from until it works, instead of having to make absolutely everything custom and manage its implementation. Working on my site is a joy again.
 
-[Swatches Test Page](https://cjohanaja.com/swatches)
 ![A small sample of my custom swatch system](/postImages/site-design-two/custom-swatches.png)
 
 ## Astronomical: Gatsby to Astro

@@ -6,7 +6,7 @@ subtext: "Light moders are human, too."
 sector: me
 ---
 
-Embarrassingly, I’ve been hacking away at implementing a dark mode for about three weeks (of course, with college and stuff also taking up time within that three weeks.) Nonetheless, it’s here, and [as I promised,](https://cjohanaja.com/musings/tech-debt) it’s great. Still in need of tweaks here and there, but it’s great. Trust me.
+Embarrassingly, I’ve been hacking away at implementing a dark mode for about three weeks (of course, with college and stuff also taking up time within that three weeks.) Nonetheless, it’s here, and [as I promised,](https://cjohanaja.com/blog/tech-debt) it’s great. Still in need of tweaks here and there, but it’s great. Trust me.
 
 ## Why was this not a thing in the first place?
 
@@ -34,7 +34,7 @@ No longer shall that be the case. Realistically, why would I WANT people to not 
 
 I’m compassionate for the robots (and maybe people) that read what I write. So, I put bunches of effort into making it as usable and pretty as I could.
 
-This was no simple feat. I quite literally structured my blog and its components around light mode, with no consideration for theme switching at all in the beginning. [My bad.](https://cjohanaja.com/musings/tech-debt) So I had to re-architect a lot of things, and that’s where the past three weeks went. [^rearchitecting]
+This was no simple feat. I quite literally structured my blog and its components around light mode, with no consideration for theme switching at all in the beginning. [My bad.](https://cjohanaja.com/blog/tech-debt) So I had to re-architect a lot of things, and that’s where the past three weeks went. [^rearchitecting]
 
 Nonetheless, things are dark now. And I finally rest, watching the sun set on a grateful internet.
 

@@ -6,11 +6,11 @@ subtext: "What's a man to do with a repository of CS books?"
 sector: me
 ---
 
-I’m working my way through *C++ for Scientific Computing* in between activities so I can [brush up on the lang before school starts.](https://cjohanaja.com/musings/lang-dilemma) In recent times, however, I’ve hit that familiar and dreaded period of stagnation I get when consuming a piece of media.
+I’m working my way through *C++ for Scientific Computing* in between activities so I can [brush up on the lang before school starts.](https://cjohanaja.com/blog/lang-dilemma) In recent times, however, I’ve hit that familiar and dreaded period of stagnation I get when consuming a piece of media.
 
 Shows, games, movies, and books all seem to have some sort of “tipping point” where I stop and question whether or not spending the time going through media X would be more beneficial to me than doing activity Y/going through media Z. The C++ book’s been made slightly redundant by the LeetCode I do, though there’s definitely still content *I need to get through in there.* It’s just hard to balance in the time sheet next to everything else.
 
-The same thing holds true for my [Doctor Who](https://cjohanaja.com/musings/doctor-why) endeavor. I’ve been enamored with *Westworld* recently, partly because of the slump and partly because it's probably not financially sound to subscribe to something to watch *one show.*
+The same thing holds true for my [Doctor Who](https://cjohanaja.com/blog/doctor-why) endeavor. I’ve been enamored with *Westworld* recently, partly because of the slump and partly because it's probably not financially sound to subscribe to something to watch *one show.*
 
 But more on the subject of my lack of bookishness, I have an absolute *stash* of educational CS books in my possession
 

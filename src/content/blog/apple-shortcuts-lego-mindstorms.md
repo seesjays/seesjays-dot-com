@@ -20,7 +20,7 @@ I’m not usually a fan of no-code tools; I feel that their command selection of
 
 With some toying around, I ended up making a nice Shortcut that takes everything I write in a Bear note and converts it to a format my blog can use, all automatically! So convenient. [^shortcut]
 
-With this newfound wonder, I made some other simpler Shortcuts. [One to import](https://www.icloud.com/shortcuts/55b03032034d4c2c9a847cc59eebb4b9) my sizable [CS book collection](https://cjohanaja.com/musings/backlog-motherlode) to Apple Books, and another that queries either a Kanye quote or positive message API and displays the result [whenever I wake up.](https://www.icloud.com/shortcuts/a7350b7a560649b09006869541cdcdab) They’re marvelous to me, and I have even more ideas.
+With this newfound wonder, I made some other simpler Shortcuts. [One to import](https://www.icloud.com/shortcuts/55b03032034d4c2c9a847cc59eebb4b9) my sizable [CS book collection](https://cjohanaja.com/blog/backlog-motherlode) to Apple Books, and another that queries either a Kanye quote or positive message API and displays the result [whenever I wake up.](https://www.icloud.com/shortcuts/a7350b7a560649b09006869541cdcdab) They’re marvelous to me, and I have even more ideas.
 
 The other exception to my pro-code dogma is, in my opinion, the most interesting LEGO product they kinda no longer make:
 
@@ -64,7 +64,7 @@ Just look at this post! A tangible effect from a no-code environment, convenient
 
 A significant issue I’ve been facing was my upload process: I write my post in Bear, copy everything, paste it into a `.md` file in my post directory, then go through the process of replacing all the garbled links that Bear stores images as in the file with actual relative links to the files in my post images directory, along with assigning them individual alt texts. Then I format everything with Prettier and commit+push it.
 
-The particularly busy bit are the images, which is why I rarely use them. The fastest way I get it done is in VSCode, but it’s still really clunky to do so and I’m trying to [reduce my VSCode usage anyway.](https://cjohanaja.com/musings/vimming-it-up)
+The particularly busy bit are the images, which is why I rarely use them. The fastest way I get it done is in VSCode, but it’s still really clunky to do so and I’m trying to [reduce my VSCode usage anyway.](https://cjohanaja.com/blog/vimming-it-up)
 
 Furthermore, I always make some last-minute wording/content changes here and there to the files while demoing them on localhost, so the writings I have in Bear are pretty significantly different from what’s actually uploaded to the site. This changes that, and makes me put more effort into writing perfectly in Bear the first time around.
 

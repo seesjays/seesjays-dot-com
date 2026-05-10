@@ -89,7 +89,7 @@ A subpoint I couldn’t find myself fitting anywhere else is this: In the worst-
 
 In the spirit of not contributing to The Grand Bubble of Piercing Noise, I’m slowing down my post schedule, as I’ve unwittingly turned blogging into a daily streak when it _wasn’t meant to be one._
 
-I’ve stretched myself a bit, picking an “interesting enough” topic and then writing a post long enough to justify the interestingness of it. The trade-off’s been making more projects, as well as my poor neglected [technical section,](https://cjohanaja.com/posts) and that’s being entirely unfair to it.
+I’ve stretched myself a bit, picking an “interesting enough” topic and then writing a post long enough to justify the interestingness of it. The trade-off’s been making more projects, as well as my poor neglected [technical section,](https://cjohanaja.com/blog) and that’s being entirely unfair to it.
 
 So, yeah. I’m doing this more as an every 4-5 days sort of thing. Probably horrendous for my analytics, but sacrificing principles for analytics is the basis of the entire concept I just ranted about.
 

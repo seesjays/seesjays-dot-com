@@ -11,7 +11,7 @@ I can attribute my massive vocabulary and English prowess to a few things, but c
 - When I was a wee lad, my parents gave me (and only me, for some reason) letter charts, asked me to recite them, and if I couldn't recite the letters properly, chewed me out.
 - I had too much free time, and reading filled that easily.
 - It gave me a sense of superiority over the kids that couldn't read.
-- [We went to the library often.](https://cjohanaja.com/musings/library-volunteering) Though I suppose that's just a self-fulfilling cycle: I read books, we go to the library for more books, I read books.
+- [We went to the library often.](https://cjohanaja.com/blog/library-volunteering) Though I suppose that's just a self-fulfilling cycle: I read books, we go to the library for more books, I read books.
 - Fun
 - AR Points
 

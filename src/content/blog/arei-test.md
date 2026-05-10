@@ -36,11 +36,11 @@ that I don't have the sources for. :(
 ## Alt-less Image
 
 (shouldn't appear since I have altRequired turned on)
-![](/BirdieGraph.png)
+![](/postImages/birdie-logos.png)
 
 ## Image with Alt
 
-![My bird thing? logo](/BirdieGraph.png)
+![My bird thing? logo](/postImages/birdie-logos.png)
 
 ## Remote Images
 

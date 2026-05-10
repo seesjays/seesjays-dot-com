@@ -39,7 +39,7 @@ I’m awaiting the Streaming Service Bundles, if those ever crawl their way into
 
 Years back when Stranger Things was on Season 2, I experienced Netflix for the first time. Great show, had a blast binging everything with my siblings, including the later 3rd season.
 
-Now we’re here, with the long-awaited and greatly-acclaimed Season 4. And I haven’t seen a second of it, because I’m committed to the whole **one** service at a time thing. I just don’t watch enough media to justify paying for two, and the only reasons I pay for HBO Max are that my brother watches the Cartoon Network stuff they have, and [Doctor Who.](https://cjohanaja.com/musings/doctor-why)
+Now we’re here, with the long-awaited and greatly-acclaimed Season 4. And I haven’t seen a second of it, because I’m committed to the whole **one** service at a time thing. I just don’t watch enough media to justify paying for two, and the only reasons I pay for HBO Max are that my brother watches the Cartoon Network stuff they have, and [Doctor Who.](https://cjohanaja.com/blog/doctor-why)
 
 I’ve missed the hype train entirely, and it’s all thanks to the illusion of choice.
 

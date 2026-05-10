@@ -6,7 +6,7 @@ subtext: "The home of strange cooks."
 sector: me
 ---
 
-Thinking back on [Bacon Anti-Patterns,](https://cjohanaja.com/musings/bacon-anti-patterns) I realize that my brother isn’t the only malpractitioner in my family when it comes to food prep.
+Thinking back on [Bacon Anti-Patterns,](https://cjohanaja.com/blog/bacon-anti-patterns) I realize that my brother isn’t the only malpractitioner in my family when it comes to food prep.
 
 It would only be fair to first address my own crime, not being the one to cast the first stone and all that: I am absolutely incapable of handling hot drinks, I hate them all; I think my mouth is just too weak. Tea, chocolate, coffee, eggnog, you name it, if it’s steaming I just can’t drink it. Food isn’t supposed to be painful!
 
@@ -20,6 +20,6 @@ My dad makes his oatmeal with water. That’s fine, I think a lot of people do t
 
 I have never seen this backwards process anywhere else. It leads to a _very strange_ texture that I can't describe outside of the word **gummy.** I only thought it was normal until I became a big boy and started making my own oatmeal.[^oatmeal]
 
-My sister doesn’t cook much so I can’t really think of anything to pin on her, and my brother has [Bacon Anti-Patterns.](https://cjohanaja.com/musings/bacon-anti-patterns) Weird cooks all around this house.
+My sister doesn’t cook much so I can’t really think of anything to pin on her, and my brother has [Bacon Anti-Patterns.](https://cjohanaja.com/blog/bacon-anti-patterns) Weird cooks all around this house.
 
 [^oatmeal]: Milk and oats in a pot at about a 5:3 ratio, place it over _low_ heat and stir constantly while the oats soak in the warming milk. It thickens so nicely, and you can add more/less milk along the way depending on exactly how thick you want your oats. I'm pretty sure this is the standard method, actually.

@@ -32,9 +32,9 @@ I suppose the most correct answer would be that the preference of the internet h
 
 I’m still at a crossroads of sorts: Do I stick to short technicals or long ones? I don’t look at the analytics for what I write (helps with mental, methinks) but I’m probably at the stage where I should “pick a side.”
 
-I like making long technical posts. [Spotify’s Authorization Code Flow For Dummies](https://cjohanaja.com/posts/spotify-auth-primer) was fun to write. But it was draining, took me an afternoon and a couple of rewrites to get everything just right. I like to make things _well._
+I like making long technical posts. [Spotify’s Authorization Code Flow For Dummies](https://cjohanaja.com/blog/spotify-auth-primer) was fun to write. But it was draining, took me an afternoon and a couple of rewrites to get everything just right. I like to make things _well._
 
-That draining bit is my problem, and it’s why I’m leaning more towards short posts like [this one.](https://cjohanaja.com/posts/express-ejs-send-objects-frontend) Furthermore, if I get used to making short ones, I could extend the practice into uni pretty easily. I doubt I’ll have the time to make long posts.
+That draining bit is my problem, and it’s why I’m leaning more towards short posts like [this one.](https://cjohanaja.com/blog/express-ejs-send-objects-frontend) Furthermore, if I get used to making short ones, I could extend the practice into uni pretty easily. I doubt I’ll have the time to make long posts.
 
 Not that I’ve written enough to make a concrete decision at this point, though. Bit more time, couple more topics, perhaps I’ll have a feel for what’s best.
 

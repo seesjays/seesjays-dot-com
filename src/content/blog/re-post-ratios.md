@@ -6,7 +6,7 @@ subtext: "Post Ratios was a bad Musing."
 sector: me
 ---
 
-I realize now that [Post Ratios](https://cjohanaja.com/musings/post-ratios) is mostly untrue.
+I realize now that [Post Ratios](https://cjohanaja.com/blog/post-ratios) is mostly untrue.
 
 I was being very productive the week of that post, and just looking at the "stagnation" of my Posts page was bumming me out a bit. Infinite exponential growth is always fun to see, and I was doing it everywhere but there. The weird thing about it is that it's all entirely a "hobby?" to write such things, and I felt pressured to write at least _something_ to "justify" it.
 

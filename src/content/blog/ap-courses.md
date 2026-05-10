@@ -42,7 +42,7 @@ My college doesn't even have Statistics in the CS degree plan. I feel a fool. I'
 
 ## 2022: AP CS A
 
-Also breezy. Java was my least enjoyed language, and still is, but having prior knowledge of it and OOP in general helped immensely, as I could focus more on the more complex topics taught later on (boolean rules, sorting implementations.) My teacher was real swell and [let me do other stuff](https://cjohanaja.com/musings/lang-dilemma) and slack a bit as a result of this preexisting knowledge.
+Also breezy. Java was my least enjoyed language, and still is, but having prior knowledge of it and OOP in general helped immensely, as I could focus more on the more complex topics taught later on (boolean rules, sorting implementations.) My teacher was real swell and [let me do other stuff](https://cjohanaja.com/blog/lang-dilemma) and slack a bit as a result of this preexisting knowledge.
 
 I'd recommend having your own laptop to bring and do work on. My school had computers and gave us OneDrive accounts, but writing and compiling code in the cloud was finnicky for a lot of people in my class, and I felt syncing work between home and school was a hassle.
 

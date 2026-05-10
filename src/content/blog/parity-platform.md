@@ -127,6 +127,6 @@ The idea still bounces around though. Might be sitting on an EdTech goldmine.
 
 ---
 
-Maybe I was going to build a website regardless of what my survey topic was going to be. I was in a particularly inventive period, and since I got my Macbook that semester I could work on sites in [AP CSA](https://cjohanaja.com/musings/lang-dilemma) and during the alotted work time we got in AP Stats.
+Maybe I was going to build a website regardless of what my survey topic was going to be. I was in a particularly inventive period, and since I got my Macbook that semester I could work on sites in [AP CSA](https://cjohanaja.com/blog/lang-dilemma) and during the alotted work time we got in AP Stats.
 
 You might think 15 pairs is a small sample size, and you'd probably be right. But if you think about it, that's 30 respondents that **did everything correctly.** The amount of single responses I got maddeningly numbeered somewhere in the 50s.

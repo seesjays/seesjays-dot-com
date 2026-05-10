@@ -1,0 +1,15 @@
+/posts      /blog         301
+/posts/     /blog         301
+/posts/*    /blog/:splat  301
+
+/musings    /blog         301
+/musings/   /blog         301
+/musings/*  /blog/:splat  301
+
+/extras     /blog         301
+/extras/    /blog         301
+/extras/*   /blog/:splat  301
+
+/notes      /blog         301
+/notes/     /blog         301
+/notes/*    /blog/:splat  301

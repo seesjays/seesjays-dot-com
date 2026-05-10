@@ -12,7 +12,7 @@ The whole ethos of college is that you’ve gotta "manage everything yourself no
 I’ve bought a planner, and haven’t written a line in it. It sits upon my shelf, collecting dust. But what I have delved into, is sort of the same thing.
 
 ## Calendar + Maps
-[I’ve been trying to use more native software.](https://cjohanaja.com/musings/vimming-it-up) I’ve felt I reach too often for a third party tool rather than what I already have at my disposal, because since somebody made it, it has to improve upon what already exists, right? That just makes sense.
+[I’ve been trying to use more native software.](https://cjohanaja.com/blog/vimming-it-up) I’ve felt I reach too often for a third party tool rather than what I already have at my disposal, because since somebody made it, it has to improve upon what already exists, right? That just makes sense.
 
 But the grass has to be greener on the other side, so I’ve been using Apple Mail in place of the usual web mail portals, just for the sake of feeling it. And it feels quite nice.
 
@@ -25,6 +25,3 @@ I’ve got my entire schedule programmed in Calendar, so I don’t have to reope
 The best part about the class schedule bit is the fact that Calendar events have *locations* attached to them, so I can just tap a Calendar block to open Maps with the directions to my next class. Super convenient, since my spatial awareness is almost as bad as my time management.
 
 I think I’m really just excited to have things to do, things that I need **scheduled.**
-
-
-
