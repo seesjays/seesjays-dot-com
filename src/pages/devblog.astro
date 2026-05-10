@@ -2,9 +2,20 @@
 import BlogPostList from "../layouts/BlogPostList.astro";
 ---
 
-<BlogPostList title="Dev Blog" selectedBlogSector="technical">
-  <p slot="desc" class="mt-4 max-w-sm">
-    I've written all sorts of stuff, most of it's
-    <span class="text-neutral-400">(kinda)</span> old and some of it's new.
-  </p>
+<BlogPostList
+  title="Christian Ohanaja's Dev Blog"
+  description="Technical writing by Christian Ohanaja"
+  selectedBlogSector="technical"
+>
+  <div slot="desc">
+    <h1
+      class="mb-2 font-sans text-5xl font-black text-[#8B5339] dark:text-orange-400"
+    >
+      Dev Blog
+    </h1>
+    <p class="mt-4 mb-0 max-w-lg">Technical posts I hope you find useful</p>
+    <p class="mt-0 font-medium text-neutral-400">
+      Note: Most future writing will be posted to <a href="/blog">/blog</a>
+    </p>
+  </div>
 </BlogPostList>

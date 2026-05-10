@@ -1,7 +1,7 @@
 ---
 import { Font } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
-import { SEO } from "astro-seo";
+import SEO from "../components/SEO.astro";
 import Topbar from "../components/Topbar.astro";
 import "../styles/global.css";
 import Sunset from "../components/Sunset.astro";
@@ -9,9 +9,26 @@ import Sunset from "../components/Sunset.astro";
 interface Props {
   title?: string;
   description?: string;
+  date?: Date;
+  schemaType?:
+    | "BlogPosting"
+    | "ProfilePage"
+    | "CollectionPage"
+    | "WebPage"
+    | false;
+  items?: {
+    name: string;
+    url: string;
+  }[];
 }
 
-const { title = "Christian Ohanaja", description } = Astro.props;
+const {
+  title = "Christian Ohanaja",
+  description,
+  date,
+  schemaType,
+  items,
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -47,13 +64,24 @@ const { title = "Christian Ohanaja", description } = Astro.props;
       document.addEventListener("astro:after-swap", initTheme);
     </script>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="generator" content="❤️ love ❤️" />
-    <SEO title={title} description={description} />
+    <SEO
+      title={title}
+      description={description}
+      date={date}
+      schemaType={schemaType}
+      items={items}
+    />
+
     <Font cssVariable="--font-hyperlegible" />
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Christian Ohanaja"
+      href={new URL("rss.xml", Astro.site)}
+    />
+    <link rel="sitemap" href={new URL("sitemap-index.xml", Astro.site)} />
+
     <ClientRouter />
   </head>
   <body

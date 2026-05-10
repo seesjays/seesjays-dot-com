@@ -1,0 +1,69 @@
+---
+// random ahh meta tags
+
+import { buildJSONLD, type JSONLDItem, type SchemaType } from "../utils/jsonld";
+
+export interface Props {
+  title?: string;
+  description?: string;
+  date?: Date;
+  isBlogPost?: boolean;
+  schemaType?: SchemaType;
+  items?: JSONLDItem[];
+}
+
+const { title, description, date, isBlogPost, schemaType, items } = Astro.props;
+
+const currentURL = Astro.url.href;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
+const jsonLdType = schemaType ?? (isBlogPost ? "BlogPosting" : false);
+
+const JSONLD = buildJSONLD({
+  schemaType: jsonLdType,
+  title,
+  description,
+  url: currentURL,
+  date: date ? date.toISOString() : undefined,
+  items,
+});
+
+const openGraphType = jsonLdType === "BlogPosting" ? "article" : "website";
+const pageTitle = title ?? "Christian Ohanaja";
+---
+
+<meta charset="UTF-8" />
+<title>{pageTitle}</title>
+{description && <meta name="description" content={description} />}
+<link rel="canonical" href={canonicalURL} />
+<meta name="generator" content="love ❤️" />
+
+<link rel="icon" href="/favicon.ico" />
+<link
+  rel="icon"
+  type="image/svg+xml"
+  sizes="any"
+  href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐️</text></svg>"
+/>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+{
+  JSONLD && (
+    <script
+      is:inline
+      type="application/ld+json"
+      set:html={JSON.stringify(JSONLD, null, 2)}
+    />
+  )
+}
+
+<meta property="og:title" content={pageTitle} />
+{description && <meta property="og:description" content={description} />}
+<meta property="og:url" content={currentURL} />
+<meta property="og:type" content={openGraphType} />
+<meta property="og:image" content="https://cjohanaja.com/ggs.png" />
+<meta property="twitter:card" content="summary" />
+
+<meta name="viewport" content="width=device-width" />

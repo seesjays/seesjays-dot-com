@@ -10,7 +10,7 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   integrations: [icon(), sitemap()],
-
+  site: "https://cjohanaja.com/",
   fonts: [
     {
       name: "Atkinson Hyperlegible Next",

@@ -2,11 +2,17 @@
 import BlogPostList from "../../layouts/BlogPostList.astro";
 ---
 
-<BlogPostList title="Blog" selectedBlogSector="me">
-  <div slot="desc" class="mt-4">
-    <p class="max-w-sm">
+<BlogPostList title="Christian Ohanaja's Blog" selectedBlogSector="me">
+  <div slot="desc">
+    <h1
+      class="mb-2 font-sans text-5xl font-black text-[#8B5339] dark:text-orange-400"
+    >
+      Blog
+    </h1>
+    <p class="mt-4 max-w-sm">
       I've written all sorts of stuff, most of it's
-    <span class="text-neutral-400 dark:text-neutral-300">(kinda)</span> old and some of it's new.
+      <span class="text-neutral-400 dark:text-neutral-300">(kinda)</span> old and
+      some of it's new.
     </p>
   </div>
 </BlogPostList>
